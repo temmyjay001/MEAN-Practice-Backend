@@ -7,5 +7,5 @@ const thingSchema = mongoose.Schema({
     userId: {type: String, required: true},
     price: {type: Number, required: true}
 });
-
+// something for you
 module.exports = mongoose.model('thing',thingSchema);
